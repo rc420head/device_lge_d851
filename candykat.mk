@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/d851/full_d851.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/candkat/config/common_full_phone.mk)
+$(call inherit-product, vendor/candykat/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/candykat/config/nfc_enhanced.mk)
